@@ -1,11 +1,10 @@
 
--- CREATE DATABASE book_catalog;
+CREATE DATABASE book_catalog;
 
--- CREATE TABLE books (
---     id  SERIAL PRIMARY KEY,
---     title VARCHAR(50) NOT NULL,
---     author VARCHAR(50) NOT NULL,
---     genre VARCHAR(100),
---     publication_date  DATE ,
---     description_ TEXT 
--- )
+CREATE TABLE books (
+    id  SERIAL PRIMARY KEY,
+    title VARCHAR(50) NOT NULL,
+    author VARCHAR(50) NOT NULL,
+    genre VARCHAR(100),
+    description_ TEXT 
+)
